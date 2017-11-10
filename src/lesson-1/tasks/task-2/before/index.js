@@ -4,7 +4,8 @@ import {
     getCount,
     getEntityById,
     getFirstEntity,
-    getLastEntity
+    getLastEntity,
+    filter
 } from '../after/dataManager';
 
 import Entity from '../after/entityManager';
