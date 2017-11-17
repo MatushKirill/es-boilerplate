@@ -56,6 +56,6 @@ const first = getFirstEntity();
 const last = getLastEntity();
 
 // Filter entities by callback
-const filtered = filter(item => item.sex === 'male' && item.age > 20);
+const filtered = filter(({sex,age}) => sex === 'male' && age > 20);
 
 console.log(filtered);
